@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlarmTest</string>
+    <string name="hint_minute">몇 분?</string>
+    <string name="message_minutes">몇 분인지 입력해주세요</string>
+</resources>
