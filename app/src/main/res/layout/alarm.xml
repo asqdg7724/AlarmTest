@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent" android:background="@drawable/alarm_background">
 
     <LinearLayout
         android:id="@+id/layout"
@@ -20,21 +20,27 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="시간" />
+                android:text="시간"
+                android:textColor="#030008"
+                android:background="#6bfdff"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="날짜" />
+                android:text="날짜"
+                android:textColor="#030008"
+                android:background="#6bfdff"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="사용여부" />
+                android:text="사용여부"
+                android:textColor="#030008"
+                android:background="#6bfdff"/>
 
         </LinearLayout>
 
